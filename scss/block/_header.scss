@@ -1,0 +1,49 @@
+.siteheade{ 
+   padding-top: 50px; 
+}
+
+.siteheade__container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.siteheader__logoblock{
+   display: flex;
+   align-items: center;
+   gap: 64px;
+}
+.siteheade__list{
+   display: flex;
+}
+.siteheade__item + .siteheade__item{
+   margin-left: 40px;
+}
+.sitehade__link{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36536B;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.btn{
+   border: 2px solid #ffffff;
+   border-radius: 24px;
+   padding: 9px 33px;
+font-family: 'Public Sans';
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.115385px;
+color: #FBFCFE;
+   background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+font-style: normal;
+}
+.btn:hover{
+   background: #DA6D97;
+}
+
