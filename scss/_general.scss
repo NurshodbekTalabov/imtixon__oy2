@@ -23,6 +23,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
 body{
+    
     font-family: 'DM Serif Display', serif;
     font-family: 'Public Sans', sans-serif;
     background: #EDF3F8;
@@ -30,6 +31,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url(../img/Bitmap.png);
+    background-repeat: no-repeat;
+    background-position-x: 550px;
+    background-position-y:-840px;
 
     
 }

@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+image {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body {
+  font-family: "DM Serif Display", serif;
+  font-family: "Public Sans", sans-serif;
+  background: #EDF3F8;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../img/Bitmap.png);
+  background-repeat: no-repeat;
+  background-position-x: 550px;
+  background-position-y: -840px;
+}
+
+.container {
+  max-width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
