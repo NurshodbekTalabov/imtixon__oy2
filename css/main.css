@@ -583,7 +583,9 @@ body {
 }
 
 .ux_text__block {
-  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ux__img1, .ux__img2 {
