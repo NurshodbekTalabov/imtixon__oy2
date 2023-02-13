@@ -1,0 +1,80 @@
+#working{
+    background-repeat: no-repeat;
+    background-image: url(../../img/bcwork.png);
+    background-color: #1B262F;
+   
+}
+.container__working{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.working__block1{
+    margin-top: 100px;
+
+    width: 445px;
+}
+.working__title{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #FBFCFE;
+}
+.working__text{
+    padding-bottom: 32px;
+    padding-top: 24px;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.working__btn{
+    margin-top: 32px;
+    width: 129px;
+    height: 48px;
+    background: #36536B;
+}
+.working__btn:hover{
+    color: #1B262F;
+    background-color: #FBFCFE;
+}
+.work__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:60px;  
+}
+.working__block2{
+
+    height: 103px;
+    width: 554px;
+     margin-top: 170px;
+     margin-bottom: 184px;
+}
+@media screen and (max-width:1054px) {
+     .container__working{
+  
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+     }
+     .working__block1{
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 77px;
+     }
+     .working__block2{
+        margin-top: 90px;
+        margin-bottom: 0;
+     }
+    
+}
+
+
